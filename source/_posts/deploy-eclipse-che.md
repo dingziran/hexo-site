@@ -5,7 +5,7 @@ tags:
   - IDE
   - Linux
 categories:
-  - Tools
+  - Explore
 thumbnail: /uploads/577.jpg
 ---
 

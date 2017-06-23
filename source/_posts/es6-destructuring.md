@@ -5,7 +5,7 @@ tags:
   - ES6
   - Language
 categories:
-  - Exercise
+  - Learn 
 thumbnail: /uploads/2027.jpg
 ---
 ## array destructure

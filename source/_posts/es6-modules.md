@@ -5,7 +5,7 @@ tags:
   - ES6
   - Language
 categories:
-  - Exercise
+  - Learn 
 thumbnail: /uploads/5656.jpg
 ---
 ## module basics

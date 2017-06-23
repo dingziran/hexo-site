@@ -5,7 +5,7 @@ tags:
   - Elixir
   - Language
 categories:
-  - Reading notes
+  - Learn 
 thumbnail: /uploads/6165.jpg
 ---
 ## spawn

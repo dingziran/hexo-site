@@ -5,7 +5,7 @@ tags:
   - Javascript
   - Language
 categories:
-  - Reading notes
+  - Learn 
 thumbnail: /uploads/123966.jpg
 ---
 

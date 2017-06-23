@@ -5,7 +5,7 @@ tags:
   - ES6
   - Language
 categories:
-  - Exercise
+  - Learn 
 thumbnail: /uploads/2018.jpg
 ---
 ## 常用遍历数组方法
