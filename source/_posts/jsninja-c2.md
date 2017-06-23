@@ -1,6 +1,6 @@
 ---
-title: javascript ninja chapter 2
-date: 2016-11-10 21:53:57
+title: javascript ninja chapter 2 building the page at runtime
+date: 2016-11-08 20:00:17
 tags:
   - Javascript
   - Language
@@ -9,92 +9,26 @@ categories:
 thumbnail: /uploads/124597.jpg
 ---
 
-## function as first-class object
+## DOM lifecycle
 
-function can assign to object, push to array, as a property, pass to function, return by function, dynamic created and assigned
+![DOM lifecycle](/uploads/jsninja_c2_1.png)
 
-callback not alway be async
+## page build phase
 
-storing function in a collection
+![page build phase](/uploads/jsninja_c2_2.png)
 
-memorization
+## global object in javascript (browser)
 
-memorization is particularly useful when performing calculations for animations, search data or math
+window document
 
-## define function
+html按顺序生成，script can't manipulate the dom element create below it 
 
-### function literal
+## event: browser events, network events, user events, timer events
 
-### function declaration
+async, queue, single thread 
 
-```javascript
-function myFun(){
-    return 1;
-}
-```
+## two way to add event
 
-### array funcition
+by assign function to special property like window.load or body.onclick
 
-```javascript
-myArgs => myArgs*2
-```
-
-
-### function constructor
-
-```javascript
-new Function('a', 'b', 'return a+b')
-```
-
-
-### generator function
-
-```
-function* myGen(){
-    yield 1;
-}
-```
-
-## function declaration
-
-function test(){}
-
-name is mandatory
-
-## function expression
-
-var a = function(){}
-
-defined where it will be used
-
-## immediate functions
-
-(function(){})(3)
-
-used to mimic modules
-
-because function(){} is a statement, js parser will check function' name
-
-so to prevent statement check error, you should make it to be a expression
-
-way 1: with parentheses (function(){})
-
-way 2: with unary operators  +function(){}
-
-## arrow functions
-
-param => expression
-
-## argument & parameter
-
-A parameter is a variable that we list as part of a function definition.
-
-An argument is a value that we pass to the function when we invoke it.
-
-## rest arguments
-
-function test(first, ...raminingNumbers){}
-
-## default parameters
-
-function test(first="abc", second=first+"!"){}
+by using addEventListener method
