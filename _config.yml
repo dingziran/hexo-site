@@ -69,4 +69,4 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://dingziran:***REMOVED***@git.coding.net/dingziran/dingziran.git
+  repo: https://dingziran@git.coding.net/dingziran/dingziran.git
